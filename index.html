@@ -1,99 +1,200 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="https://www.w3schools.com/html/styles.css">
-<style>
-h1 {
-  text-shadow: 1px 0.5px rgb(14, 86, 151);
-  text-align: center;
-    font-size: 30px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-p2 {
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hot Beans</title>
+  <style>
+    body {
+      background-color: rgb(250, 167, 71);
+    }
 
-    border-style: groove;
-    text-decoration-color: antiquewhite;
-    font-style: 20px;
+    h1 {
+      color: blue;
+    }
+
+    p {
+      color: red;
+    }
+
+    jotheader, s {
+      color: rgb(14, 86, 151);
+      font-weight: bold;
+      font-size: 56px;
+      font-family: 'Courier New', monospace;
+    }
+
+    titlebartext, s {
+      color: rgb(14, 86, 151);
+      font-weight: 900;
+      font-size: 60px;
+      text-align: center;
+      font-family: 'Courier New', monospace;
+    }
+
+    #titlebargrad1 {
+      height: 50px;
+      background-color: rgb(255, 255, 255);
+      background-image: linear-gradient(0deg, rgb(239, 228, 228), rgb(255, 145, 0), rgb(253, 249, 2));
+      text-align: center;
+    }
+
+    element2text1, s {
+      color: rgb(14, 86, 151);
+      font-weight: normal;
+      font-size: 50px;
+      font-family: 'Courier New', monospace;
+    }
+
+    element2text2, s {
+      color: rgb(14, 86, 151);
+      font-weight: normal;
+      font-size: 23px;
+      font-family: 'Courier New', monospace;
+    }
+
+    element2subtitle2, s {
+      color: rgb(14, 86, 151);
+      font-weight: bold;
+      font-size: 45px;
+      font-family: 'Courier New', monospace;
+    }
+
+    table {
+      width: 100%;
+    }
+
+    #logo {
+      width: 120px;
+      height: 120px;
+    }
+
+    #navigation {
+      width: 390px;
+    }
+
+    #logobox {
+      width: 120px;
+    }
+
+    #teamImage {
+      width: 670px;
+      height: 380px;
+    }
+    .titlebarbutton {
+  border: none;
+  background-color: rgb(253, 189, 110);
+  color: rgb(14, 86, 151);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16 px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
 }
-img {
-  float: right;
-  size: 2px;
+    .titlebarbutton:hover {
+  background-color: rgb(14, 86, 151);
+  color: rgb(250, 167, 71);
+    }
+
+    .button-element2vanancybutton {
+  border: none;
+  background-color: rgb(253, 189, 110);
+  color: rgb(14, 86, 151);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16 px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+
 }
-</style>
-<title>All about me</title>
+
+    .button-element2vanancybutton:hover {
+      background-color: rgb(14, 86, 151);
+  color: rgb(250, 167, 71);
+}
+
+.button-element2learnmorebutton {
+  border: none;
+  background-color: rgb(253, 189, 110);
+  color: rgb(14, 86, 151);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16 px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+
+}
+
+    .button-element2learnmorebutton:hover {
+      background-color: rgb(14, 86, 151);
+  color: rgb(250, 167, 71);
+}
+  </style>
+  
+
 </head>
 <body>
-
-    <script>
-        function testfunc() {
-            
-            alert("Chromebooks are not actual computers! They might as well run android🤡");
-        
-        }
-    </script>
-
-    <script>
-
-        document.getElementById("screensize").innerHTML = 
-        "just thought id let you know, your screen size is " + screen.width + " your welcome";
-
-    </script>
-    
-<img src="https://media.istockphoto.com/id/625908018/photo/confused-bearded-man-in-eyeglasses-shrugging-his-shoulders.jpg?s=612x612&w=0&k=20&c=45ojxDCsmr82XNqJAlFPW93cEFcFEB_5mGKvAIfl-e0=" alt="this is so cool"><br>
-
-<h10><b>Hi my name is kyle</b></h10>
-<h10>Facts about me</h10>
-<h2>Fact 1</h2>
-<p>Yesterday was a bad day :)</p>
-<h2>Fact 2</h2>
-<p>I am a fortnite OG</p>
-<h2>Fact 3</h2>
-<p>i almost get kicked out of the leigh in year 7</p>
-<h2>Fact 4</h2>
-<p>i know my abcs</p>
-<h2>Fact 5</h2>
-<p>i type one handed</p>
-<p>the best website in the world is <a href="https://kazz.dev">this site right here! Click it.</a> </p>
-
-
-<p2>My fondness for CSS knows no bounds; it's an enchanting language that allows me to weave creativity into web design effortlessly. The way it effortlessly styles elements, shapes layouts, and paints the canvas of a webpage fuels my passion. CSS is my artistic outlet, enabling me to transform code into visually appealing and captivating designs. Its versatility, coupled with the ability to bring imagination to life, makes me cherish and adore CSS more with each project. The satisfaction of seeing a beautiful, well-styled webpage come to life is an indescribable joy that fuels my unwavering love for CSS.</p2><br><br><br><br>
-
-
-<button type="button" onclick="testfunc()">
-Surprise me with a random fact!</button>
-
-<p id="screensize"></p>
-
-<br>
-
-<table style="width:100%" border="1">
+<!--
+  <div id="titlebargrad1">Hot Beans</div>
+-->
+  <table border="0">
     <tr>
-      <td width = 100px>
-        <H3>logo here<H3>
-         </td>
+      <td id ="logobox">
+        <img id="logo" src="https://hotbeans.kazz.dev/assets/hotbeans-logo-main.png" alt="Hot Beans Logo">
+      </td>
       <td>
-        <h1><b>Hot beans</b></h1>
+        <titlebartext><center>Hot Beans</center></titlebartext>
       </td>
-      <td width = 220px>
-        <button type="button" onclick="gohome">
-            Contact</button>
-        <button type="button" onclick="gohome">
-            Our Work</button>
-        <button type="button" onclick="gohome">
-            Home</button>
+      <td id="navigation">
+        <button class="titlebarbutton" onclick="gohome">Contact</button>
+        <button class="titlebarbutton" onclick="gohome">Our Work</button>
+        <button class="titlebarbutton" onclick="gohome">Home</button>
       </td>
     </tr>
     <tr>
-        <td>
-            <h4>element 1</h4>
-        </td>
+      <td colspan="3">
+        <table border="0">
+          <tr>  
+            <td style="width: 50%; height: 400px">
+              <jotheader><center>JOIN OUR TEAM AT</center></jotheader>
+              <jotheader><center>HOT BEANS</center></jotheader>
+            </td>
+            <td style="width: 40%"></td>
+            <td style="width: 20%">
+              <img id="teamImage" src="https://hotbeans.kazz.dev/assets/hotbeans-stockadobe-teamhands.jpeg" alt="Team Image" >
+            </td>
+          </tr>
+        </table>
+      </td>
     </tr>
     <tr>
-        <td>
-            <h4>element 2</h4>
-        </td>
+      <td colspan="3">
+        <table border="0">
+          <tr>  
+            <td style="width: 40%; height: 600px">
+              <element2text1><center>Want to be part of something <br><strong>amazing?</strong></br></center></element2text1>
+              <br><center><button class="button-element2vanancybutton" onclick="vacancies">View our vacancies</button></center>
+            </td>
+            <td style="width: 20%"> </td>
+            <td style="width: 40%">
+              <element2subtitle2><center>About Us<br></br></center></element2subtitle2>
+              <element2text2><center>Hot Beans is a London-based IT web development company creating custom websites for small to large businesses. They blend creativity with technical expertise to deliver visually appealing and functional online solutions tailored to each client's unique needs.<br></br></center></element2text2>
+              <br><center><button class="button-element2learnmorebutton" onclick="About us">About us</button></center>
+            </td>
+          </tr>
+        </table>
+      </td>
     </tr>
-      </table>
+  </table>
 
 </body>
 </html>
