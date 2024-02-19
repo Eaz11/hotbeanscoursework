@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hot Beans Jobs - About</title>
+  <link rel="icon" type="image/x-icon" href="https://hotbeans.kazz.dev/assets/hotbeans-logo-main.png">
+  <style>
+    body {
+      background-color: rgb(250, 167, 71);
+      font-family: 'Courier New', monospace;
+      color: rgb(14, 86, 151);
+      font-size: 20px;
+    }
+
+    h1 {
+      color: blue;
+    }
+
+    p {
+      color: red;
+    }
+
+    mainheader, s {
+      color: rgb(14, 86, 151);
+      font-weight: bold;
+      font-size: 56px;
+      font-family: 'Courier New', monospace;
+    }
+
+
+
+    businessname, s {
+      background-color: rgb(250, 167, 71);
+      font-family: 'Courier New', monospace;
+      color: rgb(14, 86, 151);
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    businessdescription, s {
+      background-color: rgb(250, 167, 71);
+      font-family: 'Courier New', monospace;
+      color: rgb(14, 86, 151);
+      font-size: 20px;
+      font-weight: light;
+    }
+
+    titlebartext, s {
+      color: rgb(14, 86, 151);
+      font-weight: 900;
+      font-size: 60px;
+      width: 7%;
+      text-align: center;
+      font-family: 'Courier New', monospace;
+    }
+
+    footertitle, s {
+      color: rgb(14, 86, 151);
+      font-weight: 900;
+      font-size: 37px;
+      width: 7%;
+      text-align: center;
+      font-family: 'Courier New', monospace;
+    }
+
+    footersubtitle, s {
+      color: rgb(14, 86, 151);
+      font-weight: normal;
+      font-size: 18px;
+      width: 7%;
+      text-align: center;
+      font-family: 'Courier New', monospace;
+    }
+
+    footerlinks, s {
+      color: rgb(14, 86, 151);
+      font-weight: normal;
+      font-size: 20px;
+      width: 7%;
+      text-align: center;
+      font-family: 'Courier New', monospace;
+    }
+
+    #titlebargrad1 {
+      height: 50px;
+      background-color: rgb(255, 255, 255);
+      background-image: linear-gradient(0deg, rgb(239, 228, 228), rgb(255, 145, 0), rgb(253, 249, 2));
+      text-align: center;
+    }
+
+
+    table {
+      width: 100%;
+    }
+
+    #logo {
+      width: 120px;
+      height: 120px;
+    }
+
+    #logofooter {
+      width: 120px;
+      height: 120px;
+    }
+
+    #companylogo {
+      width: 50px;
+      height: 50px;
+    }
+    #companylogof {
+      width: 55px;
+      height: 55px;
+    }
+
+    #navigation {
+      width: 390px;
+    }
+
+    #logobox {
+      width: 320px;
+    }
+
+    .titlebarbutton {
+  border: none;
+  background-color: rgb(253, 189, 110);
+  color: rgb(14, 86, 151);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16 px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+    .titlebarbutton:hover {
+  background-color: rgb(14, 86, 151);
+  color: rgb(250, 167, 71);
+    }
+
+
+
+form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+input[type="text"], textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+
+input[type="submit"]{
+
+
+    border: none;
+    background-color: rgb(253, 189, 110);
+    color: rgb(14, 86, 151);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16 px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+
+    input[type="submit"]:hover,
+    .btn:hover {
+      background-color: rgb(14, 86, 151);
+      color: rgb(250, 167, 71);
+    }
+
+    #aboutus-stockimg1 {
+      position: absolute;
+      top: 36%;
+      left: 2%;
+      width: 450px;
+      height: 250px;
+      border-radius: 25px;
+      margin: auto;
+      text-shadow: 40px;
+    }
+    #aboutus-stockimg2 {
+      position: absolute;
+      top: 56%;
+      left: 21%;
+      width: 450px;
+      height: 250px;
+      border-radius: 25px;
+      margin: auto;
+      text-shadow: 40px;
+    }
+
+    #aboutus-stockimg3 {
+      width: 450px;
+      height: 250px;
+      border-radius: 25px;
+      margin: auto;
+      text-shadow: 40px;
+    }
+
+    #aboutus-ceoimg {
+      width: 600px;
+      height: 400;
+      border-radius: 25px;
+      margin: auto;
+      text-shadow: 40px;
+    }
+
+    #reviewstar-box1-1 {
+      position: absolute;
+      top: 305%;
+      left: 13%;
+      width: 40px;
+      height: 40px;
+      border-radius: 25px;
+      margin: auto;
+      text-shadow: 40px;
+    }
+    #reviewstar-box1-2 {
+      position: absolute;
+      top: 305%;
+      left: 16%;
+      width: 40px;
+      height: 40px;
+      border-radius: 25px;
+      margin: auto;
+      text-shadow: 40px;
+    }
+    #reviewstar-box1-3 {
+      position: absolute;
+      top: 305%;
+      left: 19%;
+      width: 40px;
+      height: 40px;
+      border-radius: 25px;
+      margin: auto;
+      text-shadow: 40px;
+    }
+    #reviewstar-box1-4 {
+      position: absolute;
+      top: 305%;
+      left: 22%;
+      width: 40px;
+      height: 40px;
+      border-radius: 25px;
+      margin: auto;
+      text-shadow: 40px;
+    }
+    #reviewstar-box1-5 {
+      position: absolute;
+      top: 305%;
+      left: 25%;
+      width: 40px;
+      height: 40px;
+      border-radius: 25px;
+      margin: auto;
+      text-shadow: 40px;
+    }
+
+    #reviewbox {
+  border-radius: 25px;
+  background: rgb(254, 179, 87);
+  padding: 20px; 
+  height: 350px;  
+  margin: auto;
+  width: 448px;
+}
+
+.reviewtitle1 {
+  position: absolute;
+  top: 273%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: rgb(14, 86, 151);
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Courier New', monospace;
+}
+
+.reviewtext1 {
+  position: absolute;
+  top: 290%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: rgb(14, 86, 151);
+  font-weight: normal;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Courier New', monospace;
+}
+
+    .button-employeebutton {
+  border: none;
+  background-color: rgb(253, 189, 110);
+  color: rgb(14, 86, 151);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16 px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+
+}
+
+    .button-employeebutton:hover {
+      background-color: rgb(14, 86, 151);
+  color: rgb(250, 167, 71);
+}
+
+
+
+
+.business-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    .business {
+      width: 917px ;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+      transition: opacity 0.5s ease;
+      text-align: center;
+    }
+    .business img {
+      width: 100px; /* Adjust size as needed */
+      height: auto;
+      border-radius: 10px;
+      margin-right: 20px;
+    }
+    .business-info {
+      flex-grow: 1;
+    }
+    .button-container {
+      text-align: center;
+    }
+    .button-container button {
+      border-radius: 20px;
+      padding: 10px 20px;
+      margin-top: 10px;
+      background-color: rgb(253, 189, 110);
+      color: rgb(14, 86, 151);
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    .button-container button:hover {
+      background-color: rgb(14, 86, 151);
+      color: rgb(250, 167, 71);
+    }
+
+    .button-bus-1.active,
+.button-bus-2.active,
+.button-bus-3.active,
+.button-bus-4.active {
+  background-color: rgb(14, 86, 151);
+  color: rgb(250, 167, 71);
+}
+  
+
+
+  </style>
+  
+
+</head>
+<body>
+<!--
+  <div id="titlebargrad1">Hot Beans</div>
+-->
+  <table  border="1">
+    <tr>
+      <td id ="logobox">
+        <img id="logo" src="https://hotbeans.kazz.dev/assets/hotbeans-logo-main.png" alt="Hot Beans Logo">
+      </td>
+      <td>
+        <titlebartext><center>Hot Beans</center></titlebartext>
+      </td>
+      <td id="navigation">
+        <button class="titlebarbutton" onclick="gohome">Contact</button>
+        <button class="titlebarbutton" onclick="gohome">Our Work</button>
+        <button class="titlebarbutton" onclick="gohome">Home</button>
+      </td>
+    </tr>
+    <tr>
+  </table>
+      <td colspan="3">
+        <table  border="1">
+          <tr>  
+            <td></td>
+            <td colspan="3">
+              <mainheader><center>About Us</center></mainheader>
+            </td>
+            <td></td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        <table  border="1">
+          <tr>  
+            <td style="width: 50%">
+            <img id="aboutus-stockimg1" src="https://hotbeans.kazz.dev/assets/website-aboutus-stock-1.jpg">
+            <img id="aboutus-stockimg2" src="https://hotbeans.kazz.dev/assets/website-aboutus-stock-2.jpg">
+            </td>
+            <td style="width: 60%">
+              <br>
+              <br><mainheader><center>Who are We?</center></mainheader>
+              <mainheaderundertext><center>At Hot Beans, we're not just a company; we're a family, founded in 2012 with a vision to revolutionize the digital landscape. From our humble beginnings to our current standing as a leading force in the industry, our journey has been fueled by a deep-rooted commitment to innovation and excellence.<br><br>Located in the vibrant heart of Canary Wharf, London, our headquarters serve as the epicenter of creativity and collaboration. Surrounded by the energy of one of the world's most dynamic business districts, our team thrives on the bustling atmosphere and endless opportunities for growth.<br><br>As we continue to grow and evolve, we remain steadfast in our pursuit of greatness. We're on the lookout for dynamic individuals of all ages and backgrounds who share our passion for pushing boundaries and challenging the status quo. Whether you're a seasoned professional or a fresh talent eager to make your mark, there's a place for you at Hot Beans.<br><br>At Hot Beans, you're not just an employee—you're a valued member of a team shaping the future of digital innovation. Join us and be part of something extraordinary.</center></mainheaderundertext>
+
+              <br>
+              </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <br><br>
+      <table  border="1">
+        <tr>  
+          <td style="width: 60%" id="ceo-section-container">
+            <br><mainheader><center>Meet the CEO</center></mainheader>
+            <mainheaderundertext><center>Meet Kyle Wheble, our visionary CEO and co-founder, who has been fascinated by technology since childhood. Growing up, Kyle was captivated by the endless possibilities of the digital world, spending countless hours tinkering with computers and exploring emerging technologies. Driven by an insatiable curiosity and a passion for innovation, Kyle's journey led him to the forefront of the digital revolution.<br><br>At just 31, Kyle's entrepreneurial spirit and forward-thinking mindset propelled him to establish Hot Beans in 2012. With a steadfast commitment to excellence, Kyle set out on a mission to redefine the landscape of web development, envisioning a future where technology seamlessly integrates with human experiences.<br><br>As a leader, Kyle embodies the essence of Hot Beans' core values, inspiring our team to push boundaries and challenge the status quo. His visionary leadership and unwavering dedication have been the driving force behind Hot Beans' remarkable success, fueling our relentless pursuit of innovation and excellence.<br><br>As Kyle often reminds us, "Innovation is not just about ideas; it's about turning those ideas into reality. Let's dare to dream big, embrace change, and together, make a meaningful difference in the world."</center></mainheaderundertext>
+              <br><center><button class="button-employeebutton" onclick="vacancies">Other Employees</button></center><br>
+          </td>
+          <td style="width: 50%">
+            <center><img id="aboutus-ceoimg" src="https://hotbeans.kazz.dev/assets/website-aboutus-stockceo.jpg"></center>
+        </td>
+        </tr>
+      </table>
+    </tr>
+    <tr>
+      <br><br>
+      <table  border="1">
+        <tr>  
+          <td colspan="3">
+            <br><mainheader><center>Who we've worked with</center></mainheader>
+          </td>
+        </tr>
+        <tr>
+          <td style="width: 20%"></td>
+          <td>
+            <section id="worked-with">
+              <br>
+              <div class="business-container">
+                <div class="business" id="business1">
+                  <img src="https://hotbeans.kazz.dev/assets/website-sunrise-logo.webp" alt="Business 1">
+                  <div class="business-info">
+                    <br>
+                    <businessname>Sunrise Cafe</businessname>
+                    <br>
+                    <businessdescription>Sunrise Cafe is a cozy breakfast restaurant located in downtown Seattle, known for its delicious pancakes and friendly atmosphere. <br><br>Hot Beans designed and developed a modern, user-friendly website for Sunrise Cafe, featuring an online menu, reservation system, and customer reviews section.</businessdescription>
+                    <div class="button-container">
+                      <br>
+                      <button class="business-button" onclick="showBusiness(1)">Learn More</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="business" id="business2" style="display: none;">
+                  <img src="https://hotbeans.kazz.dev/assets/website-greenearth-logo.webp" alt="Business 2">
+                  <div class="business-info">
+                    <br>
+                    <businessname>TechSavvy Solutions</businessname>
+                    <br>
+                    <businessdescription>TechSavvy Solutions is a startup specializing in software development and IT consulting services for small businesses. <br><br>Hot Beans provided TechSavvy Solutions with custom web application development services, creating a project management tool tailored to their specific needs.</businessdescription>
+                    <div class="button-container">
+                      <br>
+                      <button class="business-button" onclick="showBusiness(2)">Learn More</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="business" id="business3" style="display: none;">
+                  <img src="https://hotbeans.kazz.dev/assets/website-techinno-logo.webp" alt="Business 3">
+                  <div class="business-info">
+                    <br>
+                    <businessname>GreenLeaf Landscaping</businessname>
+                    <br>
+                    <businessdescription>GreenLeaf Landscaping is a landscaping company offering professional lawn care, garden design, business-buttonand maintenance services. <br><br>Hot Beans revamped GreenLeaf Landscaping's website, optimizing it for search engines, and incorporating a gallery to showcase their previous projects.</businessdescription>
+                    <div class="button-container">
+                      <br>
+                      <button class="business-button" onclick="showBusiness(3)">Learn More</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="business" id="business4" style="display: none;">
+                  <img src="https://hotbeans.kazz.dev/assets/website-ocadv-logo.webp" alt="Business 4">
+                  <div class="business-info">
+                    <br>
+                    <businessname>SilverStar Fitness</businessname>
+                    <br>
+                    <businessdescription>SilverStar Fitness is a boutique gym specializing in personalized training programs and group fitness classes. <br><br>Hot Beans developed a mobile app for SilverStar Fitness, allowing users to schedule workouts, track their progress, and access exclusive fitness tips and resources.</businessdescription>
+                    <div class="button-container">
+                      <br>
+                      <button class="business-button" onclick="showBusiness(4)">Learn More</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="button-container">
+                <button class="button-bus-1" onclick="showBusiness(1)" id="button1"></button>
+                <button class="button-bus-2" onclick="showBusiness(2)" id="button2"></button>
+                <button class="button-bus-3" onclick="showBusiness(3)" id="button3"></button>
+                <button class="button-bus-4" onclick="showBusiness(4)" id="button4"></button>
+
+              </div>
+              <br>
+            </section>
+          </td>
+          <td style="width: 20%"></td>
+        </tr>
+            
+        </tr>
+      </table>
+
+    </tr>
+    <tr>
+      <br><br>
+      <table  border="1">
+        <tr>  
+          <td colspan="3">
+            <br><mainheader><center>What our customers say</center></mainheader>
+          </td>
+        </tr>
+        <tr>
+          <td style="width: 40%; height: 400px">
+            <div id="reviewbox">
+              <div class="reviewtitle1">Emily Johnson</div>
+              <div class="reviewtext1">Hot Beans brought our breakfast <br>haven to life online! <br>With their expertise, we now have<br> a sleek website that showcases <br>our delightful pancakes and<br> welcoming ambiance.<br> Their design and development skills<br> have made it easier for our customers <br>to explore our menu, <br>make reservations, and <br>leave glowing reviews.</div>
+              <center><img id="reviewstar-box1-1" src="https://hotbeans.kazz.dev/assets/website-star-fill.png"></center>
+              <center><img id="reviewstar-box1-2" src="https://hotbeans.kazz.dev/assets/website-star-fill.png"></center>
+              <center><img id="reviewstar-box1-3" src="https://hotbeans.kazz.dev/assets/website-star-fill.png"></center>
+              <center><img id="reviewstar-box1-4" src="https://hotbeans.kazz.dev/assets/website-star-fill.png"></center>
+              <center><img id="reviewstar-box1-5" src="https://hotbeans.kazz.dev/assets/website-star-fill.png"></center>
+            </div>
+          </td>
+          <td style="width: 20%; height: 400px">
+            <center><img id="aboutus-stockimg3" src="https://hotbeans.kazz.dev/assets/website-aboutus-stock-3.webp"></center>
+          </td>
+          <td style="width: 40%; height: 400px"></td>
+        </tr>
+        <tr>
+          <td colspan="3" style="width: 40%; height: 100px">
+            </td>
+        </tr>
+      </table>
+    </tr>
+    <tr>
+      <td colspan="3">
+        <table  border="1">
+          <tr>  
+            <td style="width: 19%; height: 200px">
+              <center><img id="logofooter" src="https://hotbeans.kazz.dev/assets/hotbeans-logo-main.png" alt="Hot Beans Logo"></center>
+              <footertitle><center>Hot Beans</center></footertitle>
+              <footersubtitle><center>Innovating Tomorrow's Solutions, Today.</center></footersubtitle>
+              <br>
+              <footersubtitle>© Hot Beans 2024</footersubtitle>
+            </td>
+            <td style="width: 20%"> 
+              <footertitle><center>Usuful links</center></footertitle>
+              <footerlinks><center><u>Home<br>Our Work<br>Join our team<br>Contact</u></center></footerlinks>
+            </td>
+            <td style="width: 20%">
+              <footertitle><center>Follow our <br>social media</center></footertitle>
+              <center>
+                <img id="companylogo" src="https://hotbeans.kazz.dev/assets/logo-insta.png" alt="Hot Beans Instagram">
+                <img id="companylogo" src="https://hotbeans.kazz.dev/assets/logo-x.png" alt="Hot Beans X">
+                <img id="companylogof" src="https://hotbeans.kazz.dev/assets/logo-facebook.png" alt="Hot Beans Facebook">
+                <img id="companylogo" src="https://hotbeans.kazz.dev/assets/logo-threads.png" alt="Hot Beans Threads">
+              </center>
+              <br>
+              <footerlinks><center><u>Privacy Policy<br>Terms And Conditions</u></center></footerlinks>
+              <br>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+
+</body>
+
+<script>
+  // Function to show business based on business number
+  function showBusiness(businessNumber) {
+    // Remove 'active' class from all buttons
+    let buttons = document.querySelectorAll('.business-button');
+    buttons.forEach(button => {
+      button.classList.remove('active');
+      document.querySelector(".button-bus-1").classList.remove("active");
+      document.querySelector(".button-bus-2").classList.remove("active");
+      document.querySelector(".button-bus-3").classList.remove("active");
+      document.querySelector(".button-bus-4").classList.remove("active");
+    });
+
+    // Add 'active' class to the clicked button
+    let clickedButton = document.getElementById(`button${businessNumber}`);
+    clickedButton.classList.add('active');
+
+    // Hide all businesses with a fade effect
+    document.querySelectorAll('.business').forEach(business => {
+      business.style.opacity = '0'; // Start with opacity 0
+      business.style.display = 'none'; // Hide the business
+    });
+
+    
+    // Show the selected business with a fade effect
+    let selectedBusiness = document.getElementById(`business${businessNumber}`);
+    selectedBusiness.style.display = 'block'; // Make the business visible
+    setTimeout(() => {
+      selectedBusiness.style.opacity = '1'; // Fade in the business after a short delay
+    }, 200); // Adjust the delay as needed
+  }
+</script>
+
+
+
+
+
+
+
+</script>
+
+</html>
+
