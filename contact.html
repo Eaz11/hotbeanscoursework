@@ -3,11 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hot Beans Jobs - Home</title>
+  <title>Hot Beans Jobs - Contact</title>
   <link rel="icon" type="image/x-icon" href="https://hotbeans.kazz.dev/assets/hotbeans-logo-main.png">
   <style>
     body {
       background-color: rgb(250, 167, 71);
+      font-family: 'Courier New', monospace;
+      color: rgb(14, 86, 151);
+      font-size: 20px;
     }
 
     h1 {
@@ -181,6 +184,42 @@
       background-color: rgb(14, 86, 151);
   color: rgb(250, 167, 71);
 }
+
+
+form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        input[type="text"], textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+input[type="submit"]{
+
+
+    border: none;
+    background-color: rgb(253, 189, 110);
+    color: rgb(14, 86, 151);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16 px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+
+    input[type="submit"]:hover,
+    .btn:hover {
+      background-color: rgb(14, 86, 151);
+      color: rgb(250, 167, 71);
+    }
   </style>
   
 
@@ -208,14 +247,13 @@
       <td colspan="3">
         <table  border="0">
           <tr>  
-            <td style="width: 50%; height: 400px">
-              <jotheader><center>JOIN OUR TEAM AT</center></jotheader>
-              <jotheader><center>HOT BEANS</center></jotheader>
+            <td></td>
+            <td colspan="3">
+              <jotheader><center>Contact Us</center></jotheader>
+              <vacheaderundertext><center>Have a question? Fill in the form below and we will get back to you as soon as possible!</center></vacheaderundertext>
+              <br><br><br><br>
             </td>
-            <td style="width: 40%"></td>
-            <td style="width: 20%">
-              <img id="teamImage" src="https://hotbeans.kazz.dev/assets/hotbeans-stockadobe-teamhands.jpeg" alt="Team Image" >
-            </td>
+            <td></td>
           </tr>
         </table>
       </td>
@@ -224,20 +262,34 @@
       <td colspan="3">
         <table  border="0">
           <tr>  
-            <td style="width: 47%; height: 600px">
-              <element2text1><center>Want to be part of something <br><strong>AMAZING?</strong></br></center></element2text1>
-              <br><center><button class="button-element2vanancybutton" onclick="vacancies">View our vacancies</button></center>
+            <td style="width: 10%"></td>
+            <td style="width: 20%">
+              <form action="mailto:kylewheble@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name.." required>
+            
+                <label for="email">Your Email</label>
+                <input type="text" id="email" name="email" placeholder="Your email.." required>
+            
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Write something.." style="height:200px" required></textarea>
+            
+                <input type="submit" value="Submit">
+            </form>
+            
             </td>
-            <td style="width: 10%"> </td>
-            <td style="width: 40%">
-              <element2subtitle2><center>About Us<br></br></center></element2subtitle2>
-              <element2text2><center>Hot Beans is a London-based IT web development company creating custom websites for small to large businesses. They blend creativity with technical expertise to deliver visually appealing and functional online solutions tailored to each client's unique needs.<br></br></center></element2text2>
-              <br><center><button class="button-element2learnmorebutton" onclick="Aboutus">About us</button></center>
-            </td>
+            <td style="width: 10%"></td>
+            <td style="width: 60%">
+              <jotheader><center>Contact Information</center></jotheader>
+              <vacheaderundertext><center><b>Phone Number:</b> +44 9075 4364 <br> <b>Fax:</b> +44 9075 4366 <br><b>Email: </b> hello@hotbeans.dev <br><b>Address:</b> 15 Canada Square, London E14 5GL</center></vacheaderundertext>
+              <br>
+              <center><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.4960073899165!2d-0.018699607416610507!3d51.504115583846854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487602b75c839b77%3A0xed878255947a88!2sKPMG%20Canary%20Wharf!5e0!3m2!1sen!2suk!4v1708341421590!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></center>
+          </td>
           </tr>
         </table>
       </td>
     </tr>
+    <br><br>
     <tr>
       <td colspan="3">
         <table  border="0">
