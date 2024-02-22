@@ -675,7 +675,19 @@ input[type="submit"]{
     setTimeout(() => {
       selectedBusiness.style.opacity = '1'; // Fade in the business after a short delay
     }, 200); // Adjust the delay as needed
+
+
   }
+
+  // Function to run when the about page is loaded
+function onPageLoad() {
+  // Show the first business button as active
+  showBusiness(1);
+}
+
+// Add event listener for the window load event
+window.addEventListener('load', onPageLoad);
+
 </script>
 
 
