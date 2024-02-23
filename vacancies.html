@@ -211,9 +211,21 @@
   font-family: 'Courier New', monospace;
 }
 
+.vactext3 {
+  position: relative;
+  top: 12%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+  color: rgb(14, 86, 151);
+  font-weight: normal;
+  font-size: 20.5px;
+  text-align: center;
+  font-family: 'Courier New', monospace;
+}
+
 .vacapply1 {
   border: none;
-  top: -8%;
+  top: -4%;
   left: 27%;
   position: relative;
   background-color: rgb(253, 189, 110);
@@ -229,6 +241,50 @@
 }
 
 .vacapply1:hover {
+  background-color: rgb(14, 86, 151);
+  color: rgb(250, 167, 71);
+}
+
+.vacapply2 {
+  border: none;
+  top: -14%;
+  left: 27%;
+  position: relative;
+  background-color: rgb(253, 189, 110);
+  color: rgb(14, 86, 151);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16 px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.vacapply2:hover {
+  background-color: rgb(14, 86, 151);
+  color: rgb(250, 167, 71);
+}
+
+.vacapply3 {
+  border: none;
+  top: -9%;
+  left: 27%;
+  position: relative;
+  background-color: rgb(253, 189, 110);
+  color: rgb(14, 86, 151);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16 px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.vacapply3:hover {
   background-color: rgb(14, 86, 151);
   color: rgb(250, 167, 71);
 }
@@ -284,20 +340,29 @@
             </td>
             <td style="width: 30%; height: 450px">
               <div id="vacancy1box">
+                <img id="vacimage1" src="https://hotbeans.kazz.dev/assets/website-engineer-stock.jpg" alt="Software Engineer">
+                <div class="vactitle1">Software<br>Engineer</div>
+                <div class="vactext1"><br>Hot Beans is looking for a talented software engineer to join their team. Responsibilities include designing, developing, and maintaining software solutions that meet customer needs.</div>
+                <button class="vacapply2" onclick="apply2()">Apply now</button>
 
               </div>
-            </td>>
+            </td>
             <td style="width: 30%; height: 450px">
               <div id="vacancy1box">
-
+                <img id="vacimage1" src="https://hotbeans.kazz.dev/assets/website-uiux-stock.jpeg" alt="UI/UX Designer">
+                <div class="vactitle1">UI/UX<br>Designer</div>
+                <div class="vactext3">Hot Beans seeks a creative UI/UX designer to enhance digital product user experiences. Ideal candidates will understand user-centric design principles and be proficient in tools like Adobe XD or Sketch.</div>
+                <button class="vacapply3" onclick="apply3()">Apply now</button>
               </div>
             </td>
           </tr>
         </table>
+        <br><br><br>
+        <vacheader><center>MORE JOBS OPENING SOON</center></vacheader>
       </td>
     </tr>
+    <br><br><br><br>
     <tr>
-      <br><br><br>
       <td colspan="3">
         <table  border="0">
           <tr>  
@@ -335,6 +400,16 @@
 
     window.location.href = "apply_webdeveloper.html";
   }
+
+  function apply2() {
+
+  window.location.href = "apply_softwareengineer.html";
+}
+
+function apply3() {
+
+window.location.href = "apply_uiuxdesigner.html";
+}
 
   function gohome() {
   }

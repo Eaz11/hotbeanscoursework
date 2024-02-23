@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hot Beans Jobs - Apply</title>
+  <link rel="icon" type="image/x-icon" href="https://hotbeans.kazz.dev/assets/hotbeans-logo-main.png">
+  <style>
+    body {
+      background-color: rgb(250, 167, 71);
+      font-family: 'Courier New', monospace;
+      color: rgb(14, 86, 151);
+      font-size: 20px;
+    }
+
+    h1 {
+      color: blue;
+    }
+
+    p {
+      color: red;
+    }
+
+    vacheader, s {
+      color: rgb(14, 86, 151);
+      font-weight: bold;
+      font-size: 56px;
+      font-family: 'Courier New', monospace;
+    }
+
+    vacheaderundertext, s {
+      color: rgb(14, 86, 151);
+      font-weight: normal;
+      font-size: 21px;
+      font-family: 'Courier New', monospace;
+    }
+
+    titlebartext, s {
+      color: rgb(14, 86, 151);
+      font-weight: 900;
+      font-size: 60px;
+      width: 7%;
+      text-align: center;
+      font-family: 'Courier New', monospace;
+    }
+
+    footertitle, s {
+      color: rgb(14, 86, 151);
+      font-weight: 900;
+      font-size: 37px;
+      width: 7%;
+      text-align: center;
+      font-family: 'Courier New', monospace;
+    }
+
+    footersubtitle, s {
+      color: rgb(14, 86, 151);
+      font-weight: normal;
+      font-size: 18px;
+      width: 7%;
+      text-align: center;
+      font-family: 'Courier New', monospace;
+    }
+
+    footerlinks, s {
+      color: rgb(14, 86, 151);
+      font-weight: normal;
+      font-size: 20px;
+      width: 7%;
+      text-align: center;
+      font-family: 'Courier New', monospace;
+    }
+
+    #titlebargrad1 {
+      height: 50px;
+      background-color: rgb(255, 255, 255);
+      background-image: linear-gradient(0deg, rgb(239, 228, 228), rgb(255, 145, 0), rgb(253, 249, 2));
+      text-align: center;
+    }
+
+#form-group {
+  position: absolute;
+  top: 72%;
+  left: 19%;
+
+}
+
+
+    table {
+      width: 100%;
+    }
+
+    #logo {
+      width: 120px;
+      height: 120px;
+    }
+
+    #logofooter {
+      width: 120px;
+      height: 120px;
+    }
+
+    #companylogo {
+      width: 50px;
+      height: 50px;
+    }
+    #companylogof {
+      width: 55px;
+      height: 55px;
+    }
+
+    #navigation {
+      width: 390px;
+    }
+
+    #logobox {
+      width: 320px;
+    }
+
+    #teamImage {
+      width: 670px;
+      height: 380px;
+    }
+    
+.titlebarbutton {
+  border: none;
+  background-color: rgb(253, 189, 110);
+  color: rgb(14, 86, 151);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16 px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+    .titlebarbutton:hover {
+  background-color: rgb(14, 86, 151);
+  color: rgb(250, 167, 71);
+    }
+
+    .button-element2vanancybutton {
+  border: none;
+  background-color: rgb(253, 189, 110);
+  color: rgb(14, 86, 151);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16 px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+
+}
+
+.button-element2vanancybutton:hover {
+  background-color: rgb(14, 86, 151);
+  color: rgb(250, 167, 71);
+}
+
+table.form-table {
+  border: none !important;
+}
+
+.form-horizontal {
+      width: 100%; /* Adjust the width of the form */
+      margin: 0 auto; /* Center the form horizontally */
+      border: none;
+    }
+
+    /* Optional: Adjust form field styling */
+    input[type="text"],
+    input[type="email"],
+    textarea,
+    select {
+      width: 100%;
+      padding: 8px;
+      margin: 6px 0;
+      box-sizing: border-box;
+    }
+
+    input[type="submit"],
+    .btn {
+      border: none;
+  background-color: rgb(253, 189, 110);
+  color: rgb(14, 86, 151);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16 px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+    }
+
+    input[type="submit"]:hover,
+    .btn:hover {
+      background-color: rgb(14, 86, 151);
+      color: rgb(250, 167, 71);
+    }
+
+
+  </style>
+  
+
+</head>
+<body>
+<!--
+  <div id="titlebargrad1">Hot Beans</div>
+-->
+  <table  border="0">
+    <tr>
+      <td id ="logobox">
+        <img id="logo" src="https://hotbeans.kazz.dev/assets/hotbeans-logo-main.png" alt="Hot Beans Logo">
+      </td>
+      <td>
+        <titlebartext><center>Hot Beans</center></titlebartext>
+      </td>
+      <td id="navigation">
+        <button class="titlebarbutton" onclick="gohome">Contact</button>
+        <button class="titlebarbutton" onclick="gohome">Our Work</button>
+        <button class="titlebarbutton" onclick="gohome">Home</button>
+      </td>
+    </tr>
+    <tr>
+  </table>
+      <td colspan="3">
+        <table  border="0">
+          <tr>  
+            <td style="width: 60%">
+              <vacheader><center>APPLY TO BECOME A UI / UX DESIGNER</center></vacheader>
+              <vacheaderundertext><center>Join our Designer team and start coding and designing websites!</center></vacheaderundertext>
+            </td>
+          </tr>
+        </td>
+  </table>
+      </td>
+    <tr>
+      <td colspan="3">
+        <table class="form-table"  border="0">
+          <tr>
+            <td style="width: 20%"></td>  
+            <td style="width: 40%">
+              <form class="form-horizontal">
+                <fieldset>
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="firstname">First Name</label>  
+                  <div class="col-md-2">
+                  <input id="firstname" name="firstname" type="text" placeholder="" class="form-control input-md" required="">
+                  <span class="help-block">Your legal first name</span>  
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="forename">Surname</label>  
+                  <div class="col-md-2">
+                  <input id="forename" name="forename" type="text" placeholder="" class="form-control input-md" required="">
+                  <span class="help-block">Your legal Surname</span>  
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="useremail">Email Address</label>  
+                  <div class="col-md-4">
+                  <input id="useremail" name="useremail" type="text" placeholder="example@example.com" class="form-control input-md" required="">
+                  <span class="help-block">Your email address so we can contact you about your application</span>  
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="phonenumber">Phone Number</label>  
+                  <div class="col-md-4">
+                  <input id="phonenumber" name="phonenumber" type="text" placeholder="+44 0000 0000" class="form-control input-md" required="">
+                  <span class="help-block">Your work or mobile number so we can contact you</span>  
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="dob">Date of Birth</label>  
+                  <div class="col-md-2">
+                  <input id="dob" name="dob" type="text" placeholder="01/01/2000" class="form-control input-md" required="">
+                  <span class="help-block">Your full date of birth</span>  
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="experyears">Years of experience</label>
+                  <div class="col-md-2">
+                    <select id="experyears" name="experyears" class="form-control">
+                      <option value="none">None</option>
+                      <option value=">1year">Less than 1 year</option>
+                      <option value="2years">2 Years</option>
+                      <option value="3years">3 Years</option>
+                      <option value="4years">4 Years</option>
+                      <option value="5years">5 Years</option>
+                      <option value="<5years">5+ Years</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="q1">Why do you want to work at Hot Beans as a Web Developer?</label>  
+                  <div class="col-md-6">
+                  <input id="q1" name="q1" type="text" placeholder="I want to work at Hot Beans because..." class="form-control input-md" required="">
+                  <span class="help-block">Please give as much detail as possible</span>  
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="q2">What can you bring to the team?</label>  
+                  <div class="col-md-5">
+                  <input id="q2" name="q2" type="text" placeholder="I can bring the following to the team:" class="form-control input-md" required="">
+                  <span class="help-block">Things you are good at</span>  
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="q3">What are you future aspirations?</label>  
+                  <div class="col-md-4">
+                  <input id="q3" name="q3" type="text" placeholder="I plan to do this in the future..." class="form-control input-md" required="">
+                  <span class="help-block">Future job plans</span>  
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="q4">What sets you apart from other candidates?</label>  
+                  <div class="col-md-4">
+                  <input id="q4" name="q4" type="text" placeholder="I can do..." class="form-control input-md" required="">
+                  <span class="help-block">Make yourself stand out</span>  
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="hearfrom">Where did you hear about Hot Beans?</label>
+                  <div class="col-md-2">
+                    <select id="hearfrom" name="hearfrom" class="form-control">
+                      <option value="jobsite">Job site</option>
+                      <option value="friends">Friends</option>
+                      <option value="family">Family</option>
+                      <option value="website">Our website</option>
+                      <option value="advert">Company advert</option>
+                      <option value="other">Other</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="medicalconditions">Do you have any medical conditions we should know about?</label>
+                  <div class="col-md-4">
+                  <div class="radio">
+                    <label for="medicalconditions-0">
+                      <input type="radio" name="medicalconditions" id="medicalconditions-0" value="yes" checked="checked">
+                      Yes
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label for="medicalconditions-1">
+                      <input type="radio" name="medicalconditions" id="medicalconditions-1" value="no">
+                      No
+                    </label>
+                  </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="cvupload">Upload your CV</label>
+                  <div class="col-md-4">
+                    <input id="cvupload" name="cvupload" class="input-file" type="file">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="submit">Submit your application</label>
+                  <div class="col-md-4">
+                    <button id="submit" name="submit" class="btn btn-success" onclick="submitapplication()">Submit Now!</button>
+                  </div>
+                </div>
+                
+                </fieldset>
+              </form>
+            </td>
+            <td style="width: 20%"></td>
+          </tr>
+          
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <br><br><br>
+      <td colspan="3">
+        <table  border="0">
+          <tr>  
+            <td style="width: 19%; height: 200px">
+              <center><img id="logofooter" src="https://hotbeans.kazz.dev/assets/hotbeans-logo-main.png" alt="Hot Beans Logo"></center>
+              <footertitle><center>Hot Beans</center></footertitle>
+              <footersubtitle><center>Innovating Tomorrow's Solutions, Today.</center></footersubtitle>
+              <br>
+              <footersubtitle>© Hot Beans 2024</footersubtitle>
+            </td>
+            <td style="width: 20%"> 
+              <footertitle><center>Useful links</center></footertitle>
+              <footerlinks><center><u>Home<br>Our Work<br>Join our team<br>Contact</u></center></footerlinks>
+            </td>
+            <td style="width: 20%">
+              <footertitle><center>Follow our <br>social media</center></footertitle>
+              <center>
+                <img id="companylogo" src="https://hotbeans.kazz.dev/assets/logo-insta.png" alt="Hot Beans Instagram">
+                <img id="companylogo" src="https://hotbeans.kazz.dev/assets/logo-x.png" alt="Hot Beans X">
+                <img id="companylogof" src="https://hotbeans.kazz.dev/assets/logo-facebook.png" alt="Hot Beans Facebook">
+                <img id="companylogo" src="https://hotbeans.kazz.dev/assets/logo-threads.png" alt="Hot Beans Threads">
+              </center>
+              <br>
+              <footerlinks><center><u>Privacy Policy<br>Terms And Conditions</u></center></footerlinks>
+              <br>
+            </td>
+          </tr>
+        </table>
+    </tr>
+  </table>
+
+<script>
+
+    function submitapplication() {
+    var firstName = document.getElementById("firstname").value.trim();
+    var surname = document.getElementById("forename").value.trim();
+    var email = document.getElementById("useremail").value.trim();
+    var phoneNumber = document.getElementById("phonenumber").value.trim();
+    var dob = document.getElementById("dob").value.trim();
+    var experience = document.getElementById("experyears").value.trim();
+    var q1 = document.getElementById("q1").value.trim();
+    var q2 = document.getElementById("q2").value.trim();
+    var q3 = document.getElementById("q3").value.trim();
+    var q4 = document.getElementById("q4").value.trim();
+    var hearFrom = document.getElementById("hearfrom").value.trim();
+    var medicalConditions = document.querySelector('input[name="medicalconditions"]:checked');
+
+    if (firstName !== "" && surname !== "" && email !== "" && phoneNumber !== "" && dob !== "" && experience !== "" && q1 !== "" && q2 !== "" && q3 !== "" && q4 !== "" && hearFrom !== null) {
+        alert("Your application has been submitted! We will contact you seen with more information and to continue your application. Thank you, " + firstName);
+    } else {
+        alert("Please fill out all fields before submitting your application.");
+    }
+    }
+</script>
+
+
+</body>
+</html>
