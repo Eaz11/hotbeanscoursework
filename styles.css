@@ -1,0 +1,923 @@
+/* 
+
+Hot Beans Style Sheet 
+
+Pages and elements included in this style sheet: 
+
+- Global
+- Title bar
+- Footer 
+- Index
+- Vacancies 
+- About
+- Contact
+- All image styling
+
+Apply pages are not included on this style sheet and have their own local style tags 
+
+*/
+
+/* global */
+
+body {
+  background-color: rgb(250, 167, 71);
+  font-family: 'Courier New', monospace;
+  color: rgb(14, 86, 151);
+  font-size: 20px;
+}
+
+h1 {
+  color: blue;
+}
+
+p {
+  color: red;
+}
+
+/* title bar styles*/
+
+#titlebargrad1 {
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+  background-image: linear-gradient(0deg, rgb(239, 228, 228), rgb(255, 145, 0), rgb(253, 249, 2));
+  text-align: center;
+}
+
+titlebartext, s {
+  color: rgb(14, 86, 151);
+  font-weight: 900;
+  font-size: 60px;
+  width: 7%;
+  text-align: center;
+  font-family: 'Courier New', monospace;
+}
+
+.titlebarbutton {
+  border: none;
+  background-color: rgb(253, 189, 110);
+  color: rgb(14, 86, 151);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16 px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+    .titlebarbutton:hover {
+  background-color: rgb(14, 86, 151);
+  color: rgb(250, 167, 71);
+    }
+
+/* footer sytles*/
+
+footertitle, s {
+  color: rgb(14, 86, 151);
+  font-weight: 900;
+  font-size: 37px;
+  width: 7%;
+  text-align: center;
+  font-family: 'Courier New', monospace;
+}
+
+footersubtitle, s {
+  color: rgb(14, 86, 151);
+  font-weight: normal;
+  font-size: 18px;
+  width: 7%;
+  text-align: center;
+  font-family: 'Courier New', monospace;
+}
+
+
+footerlinks, s {
+  color: rgb(14, 86, 151);
+  font-weight: normal;
+  font-size: 20px;
+  width: 7%;
+  text-align: center;
+  font-family: 'Courier New', monospace;
+}
+
+table {
+  width: 100%;
+}
+
+#logo {
+  width: 120px;
+  height: 120px;
+}
+
+#logofooter {
+  width: 120px;
+  height: 120px;
+}
+
+#companylogo {
+  width: 50px;
+  height: 50px;
+}
+#companylogof {
+  width: 55px;
+  height: 55px;
+}
+
+#navigation {
+  width: 390px;
+}
+
+#logobox {
+  width: 320px;
+}
+
+/* index page */
+
+    jotheader, s {
+      color: rgb(14, 86, 151);
+      font-weight: bold;
+      font-size: 56px;
+      font-family: 'Courier New', monospace;
+    }
+
+    element2text1, s {
+      color: rgb(14, 86, 151);
+      font-weight: normal;
+      font-size: 50px;
+      font-family: 'Courier New', monospace;
+    }
+
+    element2text2, s {
+      color: rgb(14, 86, 151);
+      font-weight: normal;
+      font-size: 23px;
+      font-family: 'Courier New', monospace;
+    }
+
+    element2subtitle2, s {
+      color: rgb(14, 86, 151);
+      font-weight: bold;
+      font-size: 45px;
+      font-family: 'Courier New', monospace;
+    }
+
+    #teamImage {
+      width: 670px;
+      height: 380px;
+    }
+
+    .button-element2vanancybutton {
+  border: none;
+  background-color: rgb(253, 189, 110);
+  color: rgb(14, 86, 151);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16 px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+
+}
+
+    .button-element2vanancybutton:hover {
+      background-color: rgb(14, 86, 151);
+  color: rgb(250, 167, 71);
+}
+
+.button-element2learnmorebutton {
+  border: none;
+  background-color: rgb(253, 189, 110);
+  color: rgb(14, 86, 151);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16 px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+
+}
+
+    .button-element2learnmorebutton:hover {
+      background-color: rgb(14, 86, 151);
+  color: rgb(250, 167, 71);
+}
+
+#course1box {
+  border-radius: 25px;
+  background: rgb(254, 179, 87);
+  padding: 20px; 
+  height: 450px;  
+  margin: auto;
+  width: 310px;
+}
+
+.coursetitle1 {
+  position: relative;
+  top: 8%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+  color: rgb(14, 86, 151);
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Courier New', monospace;
+}
+.coursetitle2 {
+  position: relative;
+  top: 16%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+  color: rgb(14, 86, 151);
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Courier New', monospace;
+}
+.coursetitle3 {
+  position: relative;
+  top: 8%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+  color: rgb(14, 86, 151);
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Courier New', monospace;
+}
+.coursetitle4 {
+  position: relative;
+  top: 12%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+  color: rgb(14, 86, 151);
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Courier New', monospace;
+}
+
+.coursetext1 {
+  position: relative;
+  top: 32%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+  color: rgb(14, 86, 151);
+  font-weight: normal;
+  font-size: 20.5px;
+  text-align: center;
+  font-family: 'Courier New', monospace;
+}
+.coursetext2 {
+  position: relative;
+  top: 30%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+  color: rgb(14, 86, 151);
+  font-weight: normal;
+  font-size: 20.5px;
+  text-align: center;
+  font-family: 'Courier New', monospace;
+}
+.coursetext3 {
+  position: relative;
+  top: 33%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+  color: rgb(14, 86, 151);
+  font-weight: normal;
+  font-size: 20.5px;
+  text-align: center;
+  font-family: 'Courier New', monospace;
+}
+.coursetext4 {
+  position: relative;
+  top: 33%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+  color: rgb(14, 86, 151);
+  font-weight: normal;
+  font-size: 20.5px;
+  text-align: center;
+  font-family: 'Courier New', monospace;
+}
+
+.courseapply1 {
+  border: none;
+  top: 18%;
+  left: 27%;
+  position: relative;
+  background-color: rgb(253, 189, 110);
+  color: rgb(14, 86, 151);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16 px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.courseapply2 {
+  border: none;
+  top: 8%;
+  left: 27%;
+  position: relative;
+  background-color: rgb(253, 189, 110);
+  color: rgb(14, 86, 151);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16 px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.courseapply3 {
+  border: none;
+  top: 18%;
+  left: 27%;
+  position: relative;
+  background-color: rgb(253, 189, 110);
+  color: rgb(14, 86, 151);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16 px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.courseapply4 {
+  border: none;
+  top: 11%;
+  left: 27%;
+  position: relative;
+  background-color: rgb(253, 189, 110);
+  color: rgb(14, 86, 151);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16 px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.courseapply1:hover {
+  background-color: rgb(14, 86, 151);
+  color: rgb(250, 167, 71);
+}
+.courseapply2:hover {
+  background-color: rgb(14, 86, 151);
+  color: rgb(250, 167, 71);
+}
+.courseapply3:hover {
+  background-color: rgb(14, 86, 151);
+  color: rgb(250, 167, 71);
+}
+.courseapply4:hover {
+  background-color: rgb(14, 86, 151);
+  color: rgb(250, 167, 71);
+}
+
+/* vacancies page */
+
+body {
+  background-color: rgb(250, 167, 71);
+}
+
+h1 {
+  color: blue;
+}
+
+p {
+  color: red;
+}
+
+vacheader, s {
+  color: rgb(14, 86, 151);
+  font-weight: bold;
+  font-size: 56px;
+  font-family: 'Courier New', monospace;
+}
+
+vacheaderundertext, s {
+  color: rgb(14, 86, 151);
+  font-weight: normal;
+  font-size: 21px;
+  font-family: 'Courier New', monospace;
+}
+
+#vacimage1 {
+  width: 300px;
+  height: 165px;
+  border-radius: 25px;
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+  margin: auto;
+  text-shadow: 40px;
+}
+
+.button-element2vanancybutton {
+border: none;
+background-color: rgb(253, 189, 110);
+color: rgb(14, 86, 151);
+padding: 16px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16 px;
+margin: 4px 2px;
+transition-duration: 0.4s;
+cursor: pointer;
+
+}
+
+.button-element2vanancybutton:hover {
+  background-color: rgb(14, 86, 151);
+color: rgb(250, 167, 71);
+}
+
+#vacancy1box {
+border-radius: 25px;
+background: rgb(254, 179, 87);
+padding: 20px; 
+height: 450px;  
+margin: auto;
+width: 310px;
+}
+
+#vacancy2box {
+border-radius: 25px;
+background: rgb(254, 179, 87);
+padding: 20px; 
+height: 350px;  
+margin: auto;
+width: 310px;
+}
+
+#vacancy3box {
+border-radius: 25px;
+background: rgb(254, 179, 87);
+padding: 20px; 
+height: 350px;  
+margin: auto;
+width: 310px;
+}
+
+
+.vactitle1 {
+position: relative;
+top: -19%;
+left: 49%;
+transform: translate(-50%, -50%);
+color: rgb(14, 86, 151);
+font-weight: bold;
+font-size: 30px;
+text-align: center;
+font-family: 'Courier New', monospace;
+}
+
+.vactext1 {
+position: relative;
+top: 9%;
+left: 49%;
+transform: translate(-50%, -50%);
+color: rgb(14, 86, 151);
+font-weight: normal;
+font-size: 20.5px;
+text-align: center;
+font-family: 'Courier New', monospace;
+}
+
+.vactext3 {
+position: relative;
+top: 12%;
+left: 49%;
+transform: translate(-50%, -50%);
+color: rgb(14, 86, 151);
+font-weight: normal;
+font-size: 20.5px;
+text-align: center;
+font-family: 'Courier New', monospace;
+}
+
+.vacapply1 {
+border: none;
+top: -4%;
+left: 27%;
+position: relative;
+background-color: rgb(253, 189, 110);
+color: rgb(14, 86, 151);
+padding: 16px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16 px;
+margin: 4px 2px;
+transition-duration: 0.4s;
+cursor: pointer;
+}
+
+.vacapply1:hover {
+background-color: rgb(14, 86, 151);
+color: rgb(250, 167, 71);
+}
+
+.vacapply2 {
+border: none;
+top: -14%;
+left: 27%;
+position: relative;
+background-color: rgb(253, 189, 110);
+color: rgb(14, 86, 151);
+padding: 16px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16 px;
+margin: 4px 2px;
+transition-duration: 0.4s;
+cursor: pointer;
+}
+
+.vacapply2:hover {
+background-color: rgb(14, 86, 151);
+color: rgb(250, 167, 71);
+}
+
+.vacapply3 {
+border: none;
+top: -9%;
+left: 27%;
+position: relative;
+background-color: rgb(253, 189, 110);
+color: rgb(14, 86, 151);
+padding: 16px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16 px;
+margin: 4px 2px;
+transition-duration: 0.4s;
+cursor: pointer;
+}
+
+.vacapply3:hover {
+background-color: rgb(14, 86, 151);
+color: rgb(250, 167, 71);
+}
+
+
+/* about page */
+
+businessname, s {
+  background-color: rgb(250, 167, 71);
+  font-family: 'Courier New', monospace;
+  color: rgb(14, 86, 151);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+businessdescription, s {
+  background-color: rgb(250, 167, 71);
+  font-family: 'Courier New', monospace;
+  color: rgb(14, 86, 151);
+  font-size: 20px;
+  font-weight: light;
+}
+
+    mainheader, s {
+      color: rgb(14, 86, 151);
+      font-weight: bold;
+      font-size: 56px;
+      font-family: 'Courier New', monospace;
+    }
+
+
+
+    businessname, s {
+      background-color: rgb(250, 167, 71);
+      font-family: 'Courier New', monospace;
+      color: rgb(14, 86, 151);
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    businessdescription, s {
+      background-color: rgb(250, 167, 71);
+      font-family: 'Courier New', monospace;
+      color: rgb(14, 86, 151);
+      font-size: 20px;
+      font-weight: light;
+    }
+
+form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+input[type="text"], textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+
+input[type="submit"]{
+
+
+    border: none;
+    background-color: rgb(253, 189, 110);
+    color: rgb(14, 86, 151);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16 px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+
+    input[type="submit"]:hover,
+    .btn:hover {
+      background-color: rgb(14, 86, 151);
+      color: rgb(250, 167, 71);
+    }
+
+    #aboutus-stockimg1 {
+      position: relative;
+      top: 36%;
+      left: 2%;
+      width: 450px;
+      height: 250px;
+      border-radius: 25px;
+      margin: auto;
+      text-shadow: 40px;
+    }
+    #aboutus-stockimg2 {
+      position: relative;
+      top: 70%;
+      left: 42%;
+      width: 450px;
+      height: 250px;
+      border-radius: 25px;
+      margin: auto;
+      text-shadow: 40px;
+    }
+
+    #aboutus-stockimg3 {
+      width: 450px;
+      height: 250px;
+      border-radius: 25px;
+      margin: auto;
+      text-shadow: 40px;
+    }
+
+    #aboutus-ceoimg {
+      width: 600px;
+      height: 400;
+      border-radius: 25px;
+      margin: auto;
+      text-shadow: 40px;
+    }
+
+    #reviewstar-box1-1 {
+      width: 40px;
+      height: 35px;
+      border-radius: 25px;
+      margin: auto;
+      text-shadow: 40px;
+    }
+    #reviewstar-box1-2 {
+      width: 40px;
+      height: 35px;
+      border-radius: 25px;
+      margin: auto;
+      text-shadow: 40px;
+    }
+    #reviewstar-box1-3 {
+      width: 40px;
+      height: 35px;
+      border-radius: 25px;
+      margin: auto;
+      text-shadow: 40px;
+    }
+    #reviewstar-box1-4 {
+      width: 40px;
+      height: 35px;
+      border-radius: 25px;
+      margin: auto;
+      text-shadow: 40px;
+    }
+    #reviewstar-box1-5 {
+      width: 40px;
+      height: 35px;
+      border-radius: 25px;
+      margin: auto;
+      text-shadow: 40px;
+    }
+
+    #reviewstar-box2-1 {
+      width: 40px;
+      height: 35px;
+      border-radius: 25px;
+      margin: auto;
+      text-shadow: 40px;
+    }
+    #reviewstar-box2-2 {
+      width: 40px;
+      height: 35px;
+      border-radius: 25px;
+      margin: auto;
+      text-shadow: 40px;
+    }
+    #reviewstar-box2-3 {
+      width: 40px;
+      height: 35px;
+      border-radius: 25px;
+      margin: auto;
+      text-shadow: 40px;
+    }
+    #reviewstar-box2-4 {
+      width: 40px;
+      height: 35px;
+      border-radius: 25px;
+      margin: auto;
+      text-shadow: 40px;
+    }
+    #reviewstar-box2-5 {
+      width: 40px;
+      height: 35px;
+      border-radius: 25px;
+      margin: auto;
+      text-shadow: 40px;
+    }
+
+    #reviewbox {
+  border-radius: 25px;
+  background: rgb(254, 179, 87);
+  padding: 20px; 
+  height: 350px;  
+  margin: auto;
+  width: 448px;
+    }
+
+
+    .button-employeebutton {
+  border: none;
+  background-color: rgb(253, 189, 110);
+  color: rgb(14, 86, 151);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16 px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+
+}
+
+    .button-employeebutton:hover {
+      background-color: rgb(14, 86, 151);
+  color: rgb(250, 167, 71);
+}
+
+
+
+
+.business-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+      align-self: center;
+    }
+    .business {
+      width: 917px;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+      transition: opacity 0.5s ease;
+      text-align: center;
+    }
+    .business img {
+      width: 100px; /* Adjust size as needed */
+      height: auto;
+      border-radius: 10px;
+      margin-right: 20px;
+    }
+    .business-info {
+      flex-grow: 1;
+    }
+    .button-container {
+      text-align: center;
+    }
+    .button-container button {
+      border-radius: 20px;
+      padding: 10px 20px;
+      margin-top: 10px;
+      background-color: rgb(253, 189, 110);
+      color: rgb(14, 86, 151);
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    .button-container button:hover {
+      background-color: rgb(14, 86, 151);
+      color: rgb(250, 167, 71);
+    }
+
+    .button-bus-1.active,
+.button-bus-2.active,
+.button-bus-3.active,
+.button-bus-4.active {
+  background-color: rgb(14, 86, 151);
+  color: rgb(250, 167, 71);
+}
+  
+@media only screen and (max-width:480px) {
+  #aboutus-stockimg1 {
+      width: 430px;
+      height: 250px;
+      border-radius: 25px;
+      margin: auto;
+      text-shadow: 40px;
+    }
+    #aboutus-stockimg2 {
+      visibility: hidden;
+    }
+}
+
+@media only screen and (min-width:1920px) {
+  #aboutus-stockimg1 {
+      left: 2%;
+      width: 430px;
+      height: 250px;
+      border-radius: 25px;
+      margin: auto;
+      text-shadow: 40px;
+    }
+    #aboutus-stockimg2 {
+      top: 40%;
+      left: 4%;
+      width: 430px;
+      height: 250px;
+      border-radius: 25px;
+      margin: auto;
+      text-shadow: 40px;
+    }
+}
+
+
+/* contact page */
+
+
+form {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+input[type="text"], textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+input[type="submit"]{
+
+
+border: none;
+background-color: rgb(253, 189, 110);
+color: rgb(14, 86, 151);
+padding: 16px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16 px;
+margin: 4px 2px;
+transition-duration: 0.4s;
+cursor: pointer;
+}
+
+
+input[type="submit"]:hover,
+.btn:hover {
+  background-color: rgb(14, 86, 151);
+  color: rgb(250, 167, 71);
+}
