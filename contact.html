@@ -17,15 +17,15 @@
   <table  border="0">
     <tr>
       <td id ="logobox">
-        <img id="logo" src="https://hotbeans.kazz.dev/assets/hotbeans-logo-main.png" alt="Hot Beans Logo">
+        <a href="index.html"><img id="logo" src="https://hotbeans.kazz.dev/assets/hotbeans-logo-main.png" alt="Hot Beans Logo"></a>
       </td>
       <td>
         <titlebartext><center>Hot Beans</center></titlebartext>
       </td>
       <td id="navigation">
-        <button class="titlebarbutton" onclick="gohome">Contact</button>
-        <button class="titlebarbutton" onclick="gohome">Our Work</button>
-        <button class="titlebarbutton" onclick="gohome">Home</button>
+        <button class="titlebarbutton" onclick="gocontact()">Contact</button>
+        <button class="titlebarbutton" onclick="goaboutus()">About us</button>
+        <button class="titlebarbutton" onclick="gohome()">Home</button>
       </td>
     </tr>
     <tr>
@@ -76,39 +76,59 @@
       </td>
     </tr>
     <br><br>
-    <tr>
-      <td colspan="3">
-        <table  border="0">
-          <tr>  
-            <td style="width: 19%; height: 200px">
-              <center><img id="logofooter" src="https://hotbeans.kazz.dev/assets/hotbeans-logo-main.png" alt="Hot Beans Logo"></center>
-              <footertitle><center>Hot Beans</center></footertitle>
-              <footersubtitle><center>Innovating Tomorrow's Solutions, Today.</center></footersubtitle>
-              <br>
-              <footersubtitle>© Hot Beans 2024</footersubtitle>
-            </td>
-            <td style="width: 20%"> 
-              <footertitle><center>Useful links</center></footertitle>
-              <footerlinks><center><u>Home<br>Our Work<br>Join our team<br>Contact</u></center></footerlinks>
-            </td>
-            <td style="width: 20%">
-              <footertitle><center>Follow our <br>social media</center></footertitle>
-              <center>
-                <img id="companylogo" src="https://hotbeans.kazz.dev/assets/logo-insta.png" alt="Hot Beans Instagram">
-                <img id="companylogo" src="https://hotbeans.kazz.dev/assets/logo-x.png" alt="Hot Beans X">
-                <img id="companylogof" src="https://hotbeans.kazz.dev/assets/logo-facebook.png" alt="Hot Beans Facebook">
-                <img id="companylogo" src="https://hotbeans.kazz.dev/assets/logo-threads.png" alt="Hot Beans Threads">
-              </center>
-              <br>
-              <footerlinks><center><u>Privacy Policy<br>Terms And Conditions</u></center></footerlinks>
-              <br>
-            </td>
-          </tr>
-        </table>
+  </table>
+
+<script>
+
+function gohome() {
+
+window.location.href = "index.html";
+}
+
+function goaboutus() {
+
+window.location.href = "about.html";
+}
+
+function gocontact() {
+
+window.location.href = "contact.html";
+}
+
+</script>
+
+
+</body>
+
+<footer class="footer">
+  <table  border="0">
+    <tr>  
+      <td style="width: 19%; height: 200px">
+        <center><a href="index.html"><img id="logofooter" src="https://hotbeans.kazz.dev/assets/hotbeans-logo-main.png" alt="Hot Beans Logo"></a></center>
+        <footertitle><center>Hot Beans</center></footertitle>
+        <footersubtitle><center>Innovating Tomorrow's Solutions, Today.</center></footersubtitle>
+        <br>
+        <footersubtitle>© Hot Beans 2024</footersubtitle>
+      </td>
+      <td style="width: 20%"> 
+        <footertitle><center>Useful links</center></footertitle>
+        <footerlinks><center><u><a href="index.html">Home</a><br><a href="vacancies.html">Join our team</a><br><a href="about.html">About us</a><br><a href="contact.html">Contact</a></u></center></footerlinks>
+      </td>
+      <td style="width: 20%">
+        <footertitle><center>Follow our <br>social media</center></footertitle>
+        <center>
+          <img id="companylogo" src="https://hotbeans.kazz.dev/assets/logo-insta.png" alt="Hot Beans Instagram">
+          <img id="companylogo" src="https://hotbeans.kazz.dev/assets/logo-x.png" alt="Hot Beans X">
+          <img id="companylogof" src="https://hotbeans.kazz.dev/assets/logo-facebook.png" alt="Hot Beans Facebook">
+          <img id="companylogo" src="https://hotbeans.kazz.dev/assets/logo-threads.png" alt="Hot Beans Threads">
+        </center>
+        <br>
+        <footerlinks><center><u>Privacy Policy<br>Terms And Conditions</u></center></footerlinks>
+        <br>
       </td>
     </tr>
   </table>
 
-</body>
+</footer>
 
 </html>

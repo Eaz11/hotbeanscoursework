@@ -72,6 +72,10 @@ titlebartext, s {
 
 /* footer sytles*/
 
+footer a {
+  color: rgb(14, 86, 151); 
+}
+
 footertitle, s {
   color: rgb(14, 86, 151);
   font-weight: 900;
@@ -814,7 +818,7 @@ input[type="submit"]{
       text-align: center;
     }
     .business img {
-      width: 100px; /* Adjust size as needed */
+      width: 100px;
       height: auto;
       border-radius: 10px;
       margin-right: 20px;
@@ -861,7 +865,7 @@ input[type="submit"]{
     }
 }
 
-@media only screen and (max-width:1920px) {
+@media only screen and (min-width:1920px) {
   #aboutus-stockimg1 {
       left: 2%;
       width: 430px;
@@ -879,6 +883,30 @@ input[type="submit"]{
       margin: auto;
       text-shadow: 40px;
     }
+
+    @media only screen and (min-width:1680px) {
+    #aboutus-stockimg1 {
+      position: relative;
+      top: 36%;
+      left: 2%;
+      width: 450px;
+      height: 250px;
+      border-radius: 25px;
+      margin: auto;
+      text-shadow: 40px;
+    }
+    #aboutus-stockimg2 {
+      position: relative;
+      top: 70%;
+      left: 42%;
+      width: 450px;
+      height: 250px;
+      border-radius: 25px;
+      margin: auto;
+      text-shadow: 40px;
+    }
+  }
+
 }
 
 
