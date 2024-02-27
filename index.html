@@ -13,6 +13,7 @@
 
 </head>
 <body>
+  
 <!--
   <div id="titlebargrad1">Hot Beans</div>
 -->
@@ -21,13 +22,25 @@
       <td id ="logobox">
         <a href="index.html"><img id="logo" src="https://hotbeans.kazz.dev/assets/hotbeans-logo-main.png" alt="Hot Beans Logo"></a>
       </td>
-      <td>
+      <td id ="titlebarbox">
         <titlebartext><center>Hot Beans</center></titlebartext>
       </td>
       <td id="navigation">
-        <button class="titlebarbutton" onclick="gocontact()">Contact</button>
-        <button class="titlebarbutton" onclick="goaboutus()">About us</button>
-        <button class="titlebarbutton" onclick="gohome()">Home</button>
+        <div id="navContainer">
+          <button class="titlebarbutton" onclick="gocontact()">Contact</button>
+          <button class="titlebarbutton" onclick="goaboutus()">About us</button>
+          <button class="titlebarbutton" onclick="gohome()">Home</button>
+          <center><div class="dropdown">
+            <center><button class="dropbtn">Menu</button></center>
+            <div class="dropdown-content">
+              <a href="index.html">Home</a>
+              <a href="vacancies.html">Join our team</a>
+              <a href="about.html">About us</a>
+              <a href="contact.html">Contact</a>
+            </center>
+            </div>
+          </div>
+        </div>
       </td>
     </tr>
     <tr>
@@ -35,7 +48,7 @@
       <td colspan="3">
         <table  border="0">
           <tr>  
-            <td style="width: 50%; height: 400px">
+            <td id=titlebox style="width: 50%; height: 400px">
               <jotheader><center>JOIN OUR TEAM AT</center></jotheader>
               <jotheader><center>HOT BEANS</center></jotheader>
             </td>
